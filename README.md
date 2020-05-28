@@ -1,14 +1,16 @@
-Training: Git-Rebase (grundlegend)
-==================================
+Training: Git-Rebase-030 (fortgeschritten)
+======================================
 
-Dies ist das grundlegende Training zu Git-Rebase.
-Es dient dazu, dass Du Erfahrungen im Umgang mit
+Dies ein weiteres Training zu Git-Rebase.
+Es dient dazu, dass Du erweiterte Erfahrungen im Umgang mit
 Git-Rebase sammelst.
+
+Bitte führe dieses Training erst durch, wenn die "Git-Rebase (grundlegend)" durchgeführt hast!
 
 Zeitaufwand: Max 30 Minuten
 
 Das Training ist intern und extern verfügbar.
-Die externe URL ist: [github:git-rebase-training-basic](https://github.com/70435-training/git-rebase-training-basic).
+Die externe URL ist: [github:git-rebase-training-030](https://github.com/70435-training/git-rebase-training-030).
 
 Voraussetzungen
 ---------------
@@ -26,6 +28,7 @@ Seitens der Kenntnisse:
 
 * Erfahrung mit der Kommandozeile
 * Erfahrung mit Git (clone, branch, pull/push, commit, ...)
+* [Training: Git-Rebase (grundlegend)](https://github.com/70435-training/git-rebase-training-basic) ist durchgeführt
 
 Ausgangsituation
 ----------------
@@ -46,7 +49,7 @@ Zielbild
 - Es gibt einen Master-Branch
 - ... und auch den Branch "experiment"
 - Der Abzweigezeitpunkt von "expriment" ist verschoben
-  auf den aktuellen Master-Branch
+  auf einen definierten Punkt im aktuellen Master-Branch
 
 Ablauf
 ------
@@ -62,7 +65,12 @@ Ablauf
 
 - Branch "experiment" auschecken [(Hilfe)](cheat-sheet/1110.md)
 - Branch "experiment" aktualisieren [(Hilfe)](cheat-sheet/1120.md)
-- Rebase durchführen [(Hilfe)](cheat-sheet/1130.md)
+- Neuen Abzweigepunkt identifizieren:
+    - Abzweigung soll nach der letzten Änderung vom 27. Mai 2020 erfolgen,
+      also bei "Links auf Einzelseiten"
+    - Wir brauchen die Commit-ID von der Änderung!
+    - [Hilfe](cheat-sheet/1125.md)
+- Rebase durchführen [(Hilfe)](cheat-sheet/1131.md)
 - Sichten [(Hilfe)](cheat-sheet/1140.md)
 - Ergebnis "veröffentlichen" [(Hilfe)](cheat-sheet/1150.md)
 
